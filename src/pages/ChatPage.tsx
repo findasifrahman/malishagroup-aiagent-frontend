@@ -1,10 +1,9 @@
 // src/pages/ChatPage.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { apiChat } from "../api";
 import type { AuthUser } from "../api";
 import { Link } from "react-router-dom";
 
-type AgentOption = "auto" | "al-barakah" | "malisha-edu" | "easylink" | "brcc";
 
 interface Props {
   user: AuthUser | null;

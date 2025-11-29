@@ -1,5 +1,5 @@
 // src/pages/LeadsPage.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getLeads, type Lead } from "../api";
 
 const domainLabel: Record<string, string> = {
