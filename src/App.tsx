@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Routes,
   Route,
@@ -166,7 +165,7 @@ export default function App() {
   return (
     <Routes>
       {/* Public chat page – your GPT-like UI */}
-      <Route path="/" element={<ChatPage />} />
+      <Route path="/" element={<ChatPage user={null} checked={false} />} />
 
       {/* Very simple login page (front-end only for now) */}
       <Route path="/login" element={<LoginPage />} />
